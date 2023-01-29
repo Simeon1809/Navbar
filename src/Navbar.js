@@ -46,7 +46,7 @@ const Navbar = () => {
                     const {id,url, icon} = media;
                     return(
                       <li key={id}>
-                        <a href={url}>{icon}</a>
+                        <a href={url}>{icon}</a> 
                       </li>
                     )
                   })}
